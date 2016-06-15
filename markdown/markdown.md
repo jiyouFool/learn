@@ -5,12 +5,10 @@
 -->
 
 # Markdown Guide
----
 
 Markdown 的目标是实现易写易读，同时 Markdown 兼容部分 HTML 标签。Markdown 可以自动转换特殊字符。
 
 ### 目录
----
 
 + ##### [Markdown 语法](#grammar)
 + ##### [Markdown 约定](#conventions)
@@ -156,7 +154,7 @@ Markdown 支持两种语法的标题。
 
 <a name="conventions"></a>
 ### Markdown 约定
----
+
 <a name="common"></a>
 ##### 1.通用约定
 
@@ -212,7 +210,6 @@ Markdown 文件标题选择使用以下三种,标题下分割线固定使用 ` -
         'prefix':'m-h1'
         'body':"""
         # ${1:title}
-        ---
 
         $2
         """
@@ -220,7 +217,6 @@ Markdown 文件标题选择使用以下三种,标题下分割线固定使用 ` -
         'prefix':'m-h3'
         'body':"""
         ### ${1:title}
-        ---
 
         $2
         """
