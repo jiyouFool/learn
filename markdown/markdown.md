@@ -8,17 +8,17 @@
 
 Markdown 的目标是实现易写易读，同时 Markdown 兼容部分 HTML 标签。Markdown 可以自动转换特殊字符。
 
-### 目录
+## 目录
 
-+ ##### [Markdown 语法](#grammar)
-+ ##### [Markdown 约定](#conventions)
+1. [Markdown 语法](#grammar)
+2. [Markdown 约定](#conventions)
 
 <a name="grammar"></a>
-### Markdown 语法
+## Markdown 语法
 ---
 
 <a name="block"></a>
-##### 1.区块元素  
+#### 1.区块元素  
 
 + 换行  
 行尾使用两个以上空格，然后回车。
@@ -100,7 +100,7 @@ Markdown 支持两种语法的标题。
   - - -
   ```
 <a name="inline"></a>
-##### 2.区段元素
+#### 2.区段元素
 
 + 链接
 
@@ -153,17 +153,17 @@ Markdown 支持两种语法的标题。
   > 图片参考式和链接参考式写法相同。
 
 <a name="conventions"></a>
-### Markdown 约定
+## Markdown 约定
 
 <a name="common"></a>
-##### 1.通用约定
+#### 1.通用约定
 
 + 数字、英文与中文相邻需要用空格隔开。
 + 层次关系注意使用缩进。
 + 标题、
 
 <a name="notes"></a>
-##### 2.文件注释
+#### 2.文件注释
 
 所有 Markdown 文件必须添加类似以下注释，包含说明、作者、更新信息。   
 
@@ -192,7 +192,7 @@ Markdown 支持两种语法的标题。
 ```
 
 <a name="title"></a>
-##### 2.标题
+#### 2.标题
 
 Markdown 文件标题选择使用以下三种,标题下分割线固定使用 ` --- ` ,并且一级，三级标题下留一行空白。
 
